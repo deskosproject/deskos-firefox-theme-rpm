@@ -1,0 +1,5 @@
+= DeskOS: deskos-firefox-theme RPM
+
+This is the _deskos-firefox-theme_ RPM package for the *DeskOS* operating system.
+
+Upstream comes from the https://github.com/horst3180/arc-firefox-theme[Arc Firefox Theme].
