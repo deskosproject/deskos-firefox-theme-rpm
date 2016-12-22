@@ -2,7 +2,7 @@
 
 Name:           deskos-firefox-theme
 Version:        0.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        DeskOS Firefox Theme
 
 Group:          User Interface/Desktops
@@ -12,7 +12,6 @@ Source0:        https://github.com/horst3180/arc-firefox-theme/archive/%{arc_fir
 Patch0:         deskos-name.patch
 Patch1:         deskos-hide-minimize-button.patch
 
-BuildArch:      noarch
 BuildRequires:  autoconf
 BuildRequires:  automake
 Requires:       firefox
@@ -42,5 +41,8 @@ cp -p arc-firefox-theme-%{arc_firefox_theme_tag}.xpi $RPM_BUILD_ROOT/%{_libdir}/
 %{_libdir}/firefox/browser/extensions/*.xpi
 
 %changelog
+* Thu Dec 22 2016 Ricardo Arguello <rarguello@deskosproject.org> - 0.1-2
+- Removed BuildArch: noarch
+
 * Mon Dec 19 2016 Ricardo Arguello <rarguello@deskosproject.org> - 0.1-1
 - Initial release
