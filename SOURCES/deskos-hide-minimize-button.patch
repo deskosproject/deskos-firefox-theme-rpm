@@ -1,9 +1,9 @@
-diff -Naur arc-firefox-theme.orig/arc-firefox-theme/chrome/browser/sass/browser-light.css arc-firefox-theme/arc-firefox-theme/chrome/browser/sass/browser-light.css
---- arc-firefox-theme.orig/arc-firefox-theme/chrome/browser/sass/browser-light.css	2016-03-08 12:43:17.000000000 -0500
-+++ arc-firefox-theme/arc-firefox-theme/chrome/browser/sass/browser-light.css	2016-12-20 00:17:05.879442428 -0500
-@@ -4616,3 +4616,5 @@
- 
- #userContext-icons[usercontextid="4"] > #userContext-indicator {
-   list-style-image: url("chrome://browser/skin/usercontext/shopping.svg"); }
+diff -Naur arc-firefox-theme-52.20170311.orig/arc-firefox-theme/chrome/browser/sass/browser-light.css arc-firefox-theme-52.20170311/arc-firefox-theme/chrome/browser/sass/browser-light.css
+--- arc-firefox-theme-52.20170311.orig/arc-firefox-theme/chrome/browser/sass/browser-light.css	2017-03-11 08:55:24.000000000 -0500
++++ arc-firefox-theme-52.20170311/arc-firefox-theme/chrome/browser/sass/browser-light.css	2017-03-22 22:19:13.818073756 -0500
+@@ -4167,3 +4167,5 @@
+ toolbar[brighttext] #pocket-button:not([disabled=true]):-moz-any([open], [checked], :hover:active), #TabsToolbar
+ toolbar[brighttext] #pocket-button:not([disabled=true]):-moz-any([open], [checked], :hover:active) {
+   list-style-image: url("chrome://browser/skin/custom_images/pocket-toolbar-icons-active.svg") !important; }
 +
 +#minimize-button { display: none !important; }

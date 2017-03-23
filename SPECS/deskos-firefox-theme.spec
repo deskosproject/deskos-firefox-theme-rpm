@@ -1,9 +1,9 @@
 %define debug_package %{nil}
-%global arc_firefox_theme_tag 45.20160308
+%global arc_firefox_theme_tag 52.20170311
 
 Name:           deskos-firefox-theme
-Version:        0.1
-Release:        3%{?dist}
+Version:        0.2
+Release:        1%{?dist}
 Summary:        DeskOS Firefox Theme
 
 Group:          User Interface/Desktops
@@ -42,6 +42,9 @@ cp -p arc-firefox-theme-%{arc_firefox_theme_tag}.xpi $RPM_BUILD_ROOT/%{_libdir}/
 %{_libdir}/firefox/browser/extensions/*.xpi
 
 %changelog
+* Wed Mar 22 2017 Ricardo Arguello <rarguello@deskosproject.org> - 0.2-1
+- Firefox 52 support
+
 * Thu Dec 22 2016 Ricardo Arguello <rarguello@deskosproject.org> - 0.1-3
 - Don't build debuginfo
 
